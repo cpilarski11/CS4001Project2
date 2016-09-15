@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidProject2</string>
+    <string name="title">Accelerometer and GPS</string>
+    <string name="X_title">X:</string>
+    <string name="X_display">X</string>
+    <string name="Y_title">Y:</string>
+    <string name="Y_display">Y</string>
+    <string name="Z_title">Z:</string>
+    <string name="Z_display">Z</string>
+    <string name="Lat_title">Lat:</string>
+    <string name="Lat_display">Latitude</string>
+    <string name="Lon_title">Lon:</string>
+    <string name="Lon_display">Longitude</string>
+    <string name="permission_resource">android.permission.ACCESS_FINE_LOCATION</string>
+</resources>

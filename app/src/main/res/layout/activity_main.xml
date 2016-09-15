@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.androidproject2.MainActivity"
+    android:background="@color/background"
+    android:gravity="center">
+
+
+<LinearLayout
+    android:id="@+id/XYZ_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        style="@style/MyTextStyle"
+        />
+
+    <LinearLayout
+        android:id="@+id/X_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/X"
+        android:text="@string/X_title"
+        style="@style/MyTextStyle"
+        />
+        <TextView
+            android:id="@+id/X_"
+            android:text="@string/X_display"
+            style="@style/MyTextStyle"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Y_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Y"
+            android:text="@string/Y_title"
+            style="@style/MyTextStyle"
+            />
+        <TextView
+            android:id="@+id/Y_"
+            android:text="@string/Y_display"
+            style="@style/MyTextStyle"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Z_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Z"
+            android:text="@string/Z_title"
+            style="@style/MyTextStyle"
+            />
+        <TextView
+            android:id="@+id/Z_"
+            android:text="@string/Z_display"
+            style="@style/MyTextStyle"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/GPS_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/XYZ_layout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/Lat_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/Lat"
+        android:text="@string/Lat_title"
+        style="@style/MyTextStyle"
+        />
+    <TextView
+        android:id="@+id/Lat_"
+        android:text="@string/Lat_display"
+        style="@style/MyTextStyle"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Lon_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Lon"
+            android:text="@string/Lon_title"
+            style="@style/MyTextStyle"
+            />
+        <TextView
+            android:id="@+id/Lon_"
+            android:text="@string/Lon_display"
+            style="@style/MyTextStyle"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
